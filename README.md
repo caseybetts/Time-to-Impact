@@ -1,5 +1,5 @@
 # Time-to-Impact
-Select two objects and see how long it takes them to drift into each other under gravity
+Select two objects and see how long it takes them to drift into each other under their own gravity
 
 ### Requirements
 python 3
