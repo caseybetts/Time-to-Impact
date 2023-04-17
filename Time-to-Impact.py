@@ -317,10 +317,10 @@ class Gravity(Tk):
         # Calculates the time it takes for two masses to collide from a given distance
         
         # The logic of this function is as follows:
-            # The distance from object serface to object surface is given as d
+            # The distance, d, between the objects's surfaces is divided into segments (number of segments is given by 'frames')
             # The acceleration due to gravity for the objects is calulated from object center to object center
                 # wich is calculated by adding the radius of each object to the given distance: r = d + r1 + r2
-            # While the distance traveled is less than the initial distance between the object's surfaces:
+            # While the distance traveled is less than d (the initial distance between the object's surfaces):
                 # Calculate the force due to gravity, acceleration of each object and time it takes to move one segment
                 # The new distance between the objects is the segment length plus the distance the larger object traveled
                 # The new velocities are calculated by distance over time for each object
